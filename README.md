@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,3 +72,53 @@ export default defineConfig([
   },
 ])
 ```
+=======
+# GlucoPilot PWA – Diyabet Karar Destek Yardımcısı
+
+GlucoPilot, Tip 1 diyabetli kullanıcılar için tasarlanmış bir Progressive Web App (PWA) uygulamasıdır. Uygulama tarayıcıda çalışır ancak ana ekrana eklenerek uygulama gibi davranır, böylece mobil cihazlarda hızlı erişim ve çevrimdışı çalışma imkanı sunar.
+
+## Özellikler
+
+- **PWA Desteği**: Ana ekrana eklenebilir, standalone modda çalışır
+- **Offline Çalışma**: Service Worker ile önbellekleme ve IndexedDB kullanılarak çevrimdışı kullanım
+- **Cihaz İçi Hesaplama**: İnsülin doz hesaplamaları tamamen kullanıcı cihazında yapılır (veri bulutuna gönderilmez)
+- **Basit Arayüz**: Kullanıcı sadece temel değerleri girer, arka planda ICR/ISF formülleri çalışır
+- **Güvenlik Katmanları**: Hipoglisemi kontrolü, doz sınırları, aktif insülin (IOB) hesaplama
+
+## Teknik Yapı
+
+- **React + TypeScript**: Modern, tip güvenli React uygulaması
+- **TailwindCSS**: Hızlı ve responsive arayüz tasarımı
+- **Vite**: Hızlı geliştirme ve build aracı
+- **IndexedDB**: Yerel veri saklama
+- **Service Worker**: Offline çalışma ve önbellekleme
+
+## Kurulum
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Kullanım
+
+1. İlk kullanımda profil ayarlarınızı girin (ICR, ISF, hedef glikoz, DIA, maksimum doz)
+2. Glikoz değerinizi girin
+3. Öğün için karbonhidrat miktarını girin
+4. Sistem size önerilen dozu gösterir
+5. Dozu onaylayın veya manuel olarak ayarlayın
+
+## Güvenlik Uyarısı
+
+**ÖNEMLİ**: Bu sistem sadece karar destek amacıyla öneride bulunur. Otomatik dozlama değildir. Tüm doz kararları doktorunuzun önerileri doğrultusunda alınmalıdır.
+
+## Lisans
+
+Bu proje eğitim ve karar destek amaçlıdır. Tıbbi tavsiye niteliği taşımaz.
+>>>>>>> 6368821ae4145b9fa943b95fd8ce52c3a83c7235

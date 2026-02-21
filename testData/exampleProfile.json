@@ -1,0 +1,9 @@
+{
+  "ICR": 12,
+  "ISF": 45,
+  "targetBG": 100,
+  "DIA": 5,
+  "maxDose": 8,
+  "unit": "mg/dL",
+  "mealRatio": 1.0
+}

@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "timestamp": 1622520000000,
+      "type": "meal",
+      "carbs": 60,
+      "dose": 5.0
+    },
+    {
+      "timestamp": 1622523600000,
+      "type": "correction",
+      "BG": 180,
+      "dose": 2.0
+    },
+    {
+      "timestamp": 1622527200000,
+      "type": "meal",
+      "carbs": 45,
+      "dose": 3.5
+    }
+  ]
+}
